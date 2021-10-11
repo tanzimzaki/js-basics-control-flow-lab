@@ -16,8 +16,8 @@ function trueChecker(argument) {
   return argument ? 'true' : 'false' 
 }
 
-function ternaryCheckCity(NYC) {
-  if(NYC === 'NYC') {
+function ternaryCheckCity(argument) {
+  if(argument === 'NYC') {
     return 'Ok, sounds good.';
   }
 
@@ -29,16 +29,12 @@ function ternaryCheckCity(NYC) {
 }
 
 function switchOnCharmFromTip(message) {
-  let answer;
   switch (message) {
     case 'if the tip is generous':
-        answer = 'Thank you so much.';
-        break;
+        return 'Thank you so much.';
     case 'if the tip is not generous':
-        answer = "Thank you.";
-        break;
+        return "Thank you.";
     default: 'if anything else'
-        console.log("Bye.");
-        break;
+        return "Bye.";
   } 
 }
