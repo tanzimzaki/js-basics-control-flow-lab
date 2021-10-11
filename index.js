@@ -28,6 +28,16 @@ function ternaryCheckCity(argument) {
   // return NYC ? 'Ok, sounds good.' : 'No go.' 
 }
 
+function withoutElse(argument) {
+  if(argument === 'NYC') {
+    return 'Ok, sounds good.';
+  }
+
+  return 'No go.';
+
+  // return NYC ? 'Ok, sounds good.' : 'No go.' 
+}
+
 function switchOnCharmFromTip(message) {
   switch (message) {
     case 'if the tip is generous':
