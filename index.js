@@ -14,6 +14,9 @@ return result
 
 function trueChecker(argument) {
   return argument ? 'true' : 'false' 
+
+  // if I want to check if this is sydney or NYC
+  // return argument === 'sydney' ? 'true' : 'false';
 }
 
 function ternaryCheckCity(argument) {
