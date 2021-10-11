@@ -48,3 +48,5 @@ function switchOnCharmFromTip(message) {
         return "Bye.";
   } 
 }
+
+console.log(switchOnCharmFromTip('generous'));
