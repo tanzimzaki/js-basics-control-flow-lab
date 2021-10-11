@@ -14,6 +14,10 @@ describe('index.js', function () {
   });
 
   describe('ternaryCheckCity()', function () {
+    it('parameter is true', function () {
+      expect(trueChecker(true)).to.equal('true');
+    });
+
     it('returns "Ok, sounds good." when the city is NYC', function () {
       expect(ternaryCheckCity('NYC')).to.equal('Ok, sounds good.');
     });
